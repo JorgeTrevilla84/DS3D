@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: _SineRotate
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18800\n0;208;1338;614;2424.26;937.4443;1.454695;True;True\nNode;AmplifyShaderEditor.FunctionInput;32;-1177.248,-200.2733;Inherit;False;In
+    UV;2;0;False;1;0;FLOAT2;0,0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.ComponentMaskNode;34;-590.9242,-411.924;Inherit;False;True;True;False;True;1;0;FLOAT3;0,0,0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.RotateAboutAxisNode;36;-939.1952,-450.1103;Inherit;False;False;4;0;FLOAT3;0,0,1;False;1;FLOAT;0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SimpleDivideOpNode;37;230.6719,-411.1635;Inherit;False;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.SimpleMaxOpNode;38;78.76098,-325.5022;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0.01;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleSubtractOpNode;40;-198.1833,-454.2687;Inherit;False;2;0;FLOAT2;0,0;False;1;FLOAT2;0.5,0.5;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.RangedFloatNode;44;-1989.986,-809.3419;Inherit;False;Property;_SineRotateFrequency;Sine
+    Rotate: Frequency;2;0;Create;True;0;0;0;False;0;False;1;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleTimeNode;43;-1740.86,-772.549;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SinOpNode;46;-1539.797,-736.9591;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;42;-1293.319,-652.1129;Inherit;False;3;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.PiNode;45;-1540.509,-552.7298;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;47;-1924.04,-557.1885;Inherit;False;Property;_SineRotateAngle;Sine
+    Rotate: Angle;1;0;Create;True;0;0;0;False;0;False;15;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleDivideOpNode;48;-1696.393,-515.7339;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;360;False;1;FLOAT;0\nNode;AmplifyShaderEditor.Vector2Node;35;-1273.924,-338.9239;Inherit;False;Property;_SineRotatePivot;Sine
+    Rotate: Pivot;3;0;Create;True;0;0;0;False;0;False;0.5,0.5;0.5,0.5;0;3;FLOAT2;0;FLOAT;1;FLOAT;2\nNode;AmplifyShaderEditor.RangedFloatNode;33;-162.0761,-266.9124;Inherit;False;Property;_SineRotateScale;Sine
+    Rotate: Scale;4;0;Create;True;0;0;0;False;0;False;1;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleAddOpNode;39;415.6261,-344.2428;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT2;0.5,0.5;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.RangedFloatNode;49;-1666.552,-390.5184;Inherit;False;Property;_SineRotateFade;Sine
+    Rotate: Fade;0;0;Create;True;0;0;0;False;0;False;1;0;0;1;0;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;41;656.085,-410.9494;Inherit;False;True;-1;Out
+    UV;0;False;1;0;FLOAT2;0,0;False;1;FLOAT2;0\nWireConnection;34;0;36;0\nWireConnection;36;1;42;0\nWireConnection;36;2;35;0\nWireConnection;36;3;32;0\nWireConnection;37;0;40;0\nWireConnection;37;1;38;0\nWireConnection;38;0;33;0\nWireConnection;40;0;34;0\nWireConnection;43;0;44;0\nWireConnection;46;0;43;0\nWireConnection;42;0;46;0\nWireConnection;42;1;45;0\nWireConnection;42;2;49;0\nWireConnection;45;0;48;0\nWireConnection;48;0;47;0\nWireConnection;39;0;37;0\nWireConnection;41;0;39;0\nASEEND*/\n//CHKSM=EEF37C1BF88A99EE2B6441F87406BE480F442913"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0

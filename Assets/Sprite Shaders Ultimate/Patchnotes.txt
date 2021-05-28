@@ -1,0 +1,21 @@
+5 New Shaders:
+- Added Alpha Tint
+- Added Sine Glow
+- Added Poison
+- Added Color Replace
+- Added Split Toning
+
+More Uber:
+- Added Flame, Checkerboard, Smoke and Custom Fade to Uber.
+- Added Additive UI Shader
+- Added 3D Lit Uber for Standard and URP
+
+Other:
+- More compact uber shader inspector.
+- Small polish to uber shader inspector.
+- Can now hide or show shader properties.
+- Added Full Fade slider to Uber.
+- Polished a bunch of stuff.
+- Moved Brightness and Desaturate to Legacy Zip.
+- No longer counting additive and multiplicative basic shaders.
+- Added button to switch to uber shaders.

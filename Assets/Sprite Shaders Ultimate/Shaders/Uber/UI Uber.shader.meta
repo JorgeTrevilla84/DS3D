@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: b9374b474ac2b3449915b87a75413a3c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _UberNoiseTexture: {fileID: 2800000, guid: 6b7b4a61603088549ac748de5e4e6d8c, type: 3}
+  - _RecolorTintAreas: {instanceID: 0}
+  - _AddHueShaderMask: {instanceID: 0}
+  - _ShiftHueShaderMask: {instanceID: 0}
+  - _SineGlowShaderMask: {instanceID: 0}
+  - _RainbowMask: {instanceID: 0}
+  - _CamouflageShaderMask: {instanceID: 0}
+  - _MetalShaderMask: {instanceID: 0}
+  - _ShineShaderMask: {instanceID: 0}
+  - _UVDistortShaderMask: {instanceID: 0}
+  - _WindDistortionMask: {fileID: 2800000, guid: 0dc94c6eb3e463a479c839873ff17314,
+      type: 3}
+  - _CustomFadeFadeMask: {fileID: 2800000, guid: 91f759c7694b66c41b5a9e587c22f40e,
+      type: 3}
+  - _texcoord: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
